@@ -1,0 +1,339 @@
+/* Small */
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .container .row .col-md-6 img {
+        width: 100% !important;
+        padding-right: 0% !important;
+    }
+    .creatAcount {
+        box-shadow: 0 0 0 0 !important;
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+    }
+}
+
+
+/* Small */
+
+@media (min-width: 768px) {}
+
+
+/* Medium */
+
+@media (min-width: 992px) {}
+
+
+/* Large */
+
+@media (min-width: 1200px) {}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+    position: relative;
+}
+
+
+/*Start Varablesa*/
+
+ :root {
+    --main-color: #F8D62E;
+    --transparenr-color: rgb(15 116 143 / 70%);
+    --text-color: #000;
+}
+
+
+/*End Varables*/
+
+
+/*Start  Navbar*/
+
+.navbar {
+    background-color: var(--main-color);
+    padding-left: 2%;
+}
+
+.navbar .navbar-brand {
+    margin-left: 10%;
+}
+
+.navbar .nav-link {
+    font-size: 21px;
+    color: #000 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar .nav-link.active {
+    color: #000 !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    text-align: right;
+}
+
+.navbar .container-fluid a.login {
+    background-color: var(--main-color);
+    padding: .5%;
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 1%;
+    border-radius: 21px 21px;
+    -webkit-border-radius: 21px 21px;
+    -moz-border-radius: 21px 21px;
+    -ms-border-radius: 21px 21px;
+    -o-border-radius: 21px 21px;
+    text-align: center;
+    border: #000 2px solid;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.navbar .container-fluid a.login:hover {
+    background-color: #fff;
+}
+
+.navbar .container-fluid a.shop-car {
+    color: #000;
+    font-size: 21px;
+}
+
+.navbar .container-fluid a.shop-car:hover {
+    color: #fff;
+}
+
+
+/*End Navbar*/
+
+
+/*Start CreatAcount*/
+
+.container .row .col-md-6 .h2 {
+    font-weight: bolder;
+}
+
+.container .row .creatAcount {
+    background-color: #fff;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    box-shadow: 10px 15px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 3%;
+}
+
+.container .row .col-md-6 .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .row .col-md-6 .name input:focus {
+    outline: none;
+}
+
+.container .row .col-md-6 .name input {
+    width: 45%;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    font-size: 21px;
+    padding: 3%;
+    border-bottom: 3px solid #C4C4C4;
+    margin-bottom: 3%;
+}
+
+.container .row .col-md-6 .email input {
+    width: 100%;
+    padding: 3%;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #C4C4C4;
+    font-size: 21px;
+}
+
+.container .row .col-md-6 .email input:focus {
+    outline: none;
+}
+
+.container .row .col-md-6 .phoneNumber input {
+    width: 100%;
+    padding: 3%;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #C4C4C4;
+    font-size: 21px;
+}
+
+.container .row .col-md-6 .phoneNumber input:focus {
+    outline: none;
+}
+
+.container .row .col-md-6 .password input {
+    width: 100%;
+    padding: 3%;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #C4C4C4;
+    font-size: 21px;
+}
+
+.container .row .col-md-6 .password input:focus {
+    outline: none;
+}
+
+.container .row .col-md-6 .choose label {
+    font-size: 21px;
+    margin-bottom: 3%;
+}
+
+.container .row .col-md-6 .submit .btn {
+    width: 100%;
+    background-color: #F8D62E;
+    color: #000;
+    padding: 3%;
+    font-size: 21px;
+    font-weight: bold;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+}
+
+.container .row .col-md-6 .submit .h6 {
+    color: #C4C4C4;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.container .row .col-md-6 .submit .h6 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container .row .col-md-6 .submit .btn:hover {
+    background-color: #000;
+    color: #F8D62E;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.container .row .col-md-6 img {
+    padding-top: 18%;
+    padding-right: 10%;
+}
+
+
+/*End CreatAcount*/
+
+
+/*Start Footer*/
+
+footer {
+    position: absolute;
+    top: 100%;
+    background-color: #000000;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    padding-top: 1%;
+    border-radius: 90px 0 90px 0;
+    -webkit-border-radius: 90px 0 90px 0;
+    -moz-border-radius: 90px 0 90px 0;
+    -ms-border-radius: 90px 0 90px 0;
+    -o-border-radius: 90px 0 90px 0;
+}
+
+.footer .container-fluid .row .col-md-2 .h3 {
+    color: var(--main-color);
+    padding-bottom: 5%;
+}
+
+.footer .container-fluid .row .col-md-3 .h3 {
+    color: var(--main-color);
+    padding-bottom: 5%;
+}
+
+.footer .container-fluid .row .col-md-3 .text .h5 i {
+    color: #fff;
+    padding-left: 2%;
+}
+
+.footer .container-fluid .row .col-md-3 .text .h5 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.footer .container-fluid .row .col-md-3 .text .h5 a:hover {
+    color: #F8D62E;
+}
+
+.footer .container-fluid .row .col-md-3 .text .h5 .address {
+    width: 10%;
+}
+
+.footer .container-fluid .row .col-md-4 .h3 {
+    color: var(--main-color);
+}
+
+.footer .container-fluid .row .col-md-4 .text i {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 3%;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+}
+
+.footer .container-fluid .row .col-md-4 .text i:hover {
+    color: #F8D62E;
+    position: relative;
+    left: 1%;
+}
+
+.col-md-4 .text a {
+    text-decoration: none;
+}
+
+.footer .container-fluid .lastRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .container-fluid .lastRow .h6 a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 3%;
+}
+
+.footer .container-fluid .lastRow .h6 a:hover {
+    color: var(--main-color)
+}
+
+
+/*End Footer*/
